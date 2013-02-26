@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222B64C9134BDD6200AE014B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222B64C3134BDD6200AE014B /* RootViewController.m */; };
+		222B64CA134BDD6200AE014B /* SimpleShareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 222B64C5134BDD6200AE014B /* SimpleShareAppDelegate.m */; };
+		222B64CB134BDD6200AE014B /* SSHActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 222B64C8134BDD6200AE014B /* SSHActionSheet.m */; };
+		222B64CD134BDD6D00AE014B /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222B64CC134BDD6D00AE014B /* RootViewController.xib */; };
+		222B64E9134BE61300AE014B /* SSH.m in Sources */ = {isa = PBXBuildFile; fileRef = 222B64E8134BE61300AE014B /* SSH.m */; };
+		222B6663134C08B500AE014B /* NSString+URLEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 222B6662134C08B300AE014B /* NSString+URLEscape.m */; };
+		222B6666134C0F1200AE014B /* SSHEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222B6665134C0F1000AE014B /* SSHEmailViewController.m */; };
+		222B6668134C0F8900AE014B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222B6667134C0F8900AE014B /* MessageUI.framework */; };
+		222B66AC134C244400AE014B /* SSHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222B66AB134C244400AE014B /* SSHWebViewController.m */; };
+		22C7F8AD134BDCCD0086C413 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C7F8AC134BDCCD0086C413 /* UIKit.framework */; };
+		22C7F8AF134BDCCD0086C413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C7F8AE134BDCCD0086C413 /* Foundation.framework */; };
+		22C7F8B1134BDCCD0086C413 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C7F8B0134BDCCD0086C413 /* CoreGraphics.framework */; };
+		22C7F8B7134BDCCD0086C413 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22C7F8B5134BDCCD0086C413 /* InfoPlist.strings */; };
+		22C7F8BA134BDCCD0086C413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7F8B9134BDCCD0086C413 /* main.m */; };
+		22C7F8C0134BDCCD0086C413 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C7F8BE134BDCCD0086C413 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		222B64C2134BDD6200AE014B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		222B64C3134BDD6200AE014B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		222B64C4134BDD6200AE014B /* SimpleShareAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleShareAppDelegate.h; sourceTree = "<group>"; };
+		222B64C5134BDD6200AE014B /* SimpleShareAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleShareAppDelegate.m; sourceTree = "<group>"; };
+		222B64C7134BDD6200AE014B /* SSHActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHActionSheet.h; sourceTree = "<group>"; };
+		222B64C8134BDD6200AE014B /* SSHActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHActionSheet.m; sourceTree = "<group>"; };
+		222B64CC134BDD6D00AE014B /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = SimpleShare/RootViewController.xib; sourceTree = "<group>"; };
+		222B64D6134BE2B000AE014B /* SSHWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHWebViewController.h; sourceTree = "<group>"; };
+		222B64E7134BE61300AE014B /* SSH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSH.h; sourceTree = "<group>"; };
+		222B64E8134BE61300AE014B /* SSH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSH.m; sourceTree = "<group>"; };
+		222B64F8134BF6AA00AE014B /* SSHConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHConfig.h; sourceTree = "<group>"; };
+		222B6661134C08B300AE014B /* NSString+URLEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEscape.h"; sourceTree = "<group>"; };
+		222B6662134C08B300AE014B /* NSString+URLEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEscape.m"; sourceTree = "<group>"; };
+		222B6664134C0F0F00AE014B /* SSHEmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHEmailViewController.h; sourceTree = "<group>"; };
+		222B6665134C0F1000AE014B /* SSHEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHEmailViewController.m; sourceTree = "<group>"; };
+		222B6667134C0F8900AE014B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		222B66AB134C244400AE014B /* SSHWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHWebViewController.m; sourceTree = "<group>"; };
+		22C7F8A8134BDCCD0086C413 /* SocialShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C7F8AC134BDCCD0086C413 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22C7F8AE134BDCCD0086C413 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22C7F8B0134BDCCD0086C413 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22C7F8B4134BDCCD0086C413 /* SocialShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialShare-Info.plist"; sourceTree = "<group>"; };
+		22C7F8B6134BDCCD0086C413 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22C7F8B8134BDCCD0086C413 /* SocialShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocialShare-Prefix.pch"; sourceTree = "<group>"; };
+		22C7F8B9134BDCCD0086C413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22C7F8BF134BDCCD0086C413 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C7F8A5134BDCCD0086C413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222B6668134C0F8900AE014B /* MessageUI.framework in Frameworks */,
+				22C7F8AD134BDCCD0086C413 /* UIKit.framework in Frameworks */,
+				22C7F8AF134BDCCD0086C413 /* Foundation.framework in Frameworks */,
+				22C7F8B1134BDCCD0086C413 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222B64BE134BDD2500AE014B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				222B64C1134BDD6200AE014B /* Example */,
+				222B64C6134BDD6200AE014B /* SimpleShare */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		222B64C0134BDD3800AE014B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				222B64CC134BDD6D00AE014B /* RootViewController.xib */,
+				22C7F8BE134BDCCD0086C413 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		222B64C1134BDD6200AE014B /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				222B64C2134BDD6200AE014B /* RootViewController.h */,
+				222B64C3134BDD6200AE014B /* RootViewController.m */,
+				222B64C4134BDD6200AE014B /* SimpleShareAppDelegate.h */,
+				222B64C5134BDD6200AE014B /* SimpleShareAppDelegate.m */,
+			);
+			name = Example;
+			path = SimpleShare/Classes/Example;
+			sourceTree = "<group>";
+		};
+		222B64C6134BDD6200AE014B /* SimpleShare */ = {
+			isa = PBXGroup;
+			children = (
+				222B64C7134BDD6200AE014B /* SSHActionSheet.h */,
+				222B64C8134BDD6200AE014B /* SSHActionSheet.m */,
+				222B64D6134BE2B000AE014B /* SSHWebViewController.h */,
+				222B66AB134C244400AE014B /* SSHWebViewController.m */,
+				222B6664134C0F0F00AE014B /* SSHEmailViewController.h */,
+				222B6665134C0F1000AE014B /* SSHEmailViewController.m */,
+				222B64E7134BE61300AE014B /* SSH.h */,
+				222B64E8134BE61300AE014B /* SSH.m */,
+				222B64F8134BF6AA00AE014B /* SSHConfig.h */,
+				222B6661134C08B300AE014B /* NSString+URLEscape.h */,
+				222B6662134C08B300AE014B /* NSString+URLEscape.m */,
+			);
+			name = SimpleShare;
+			path = SimpleShare/Classes/SimpleShare;
+			sourceTree = "<group>";
+		};
+		22C7F89D134BDCCD0086C413 = {
+			isa = PBXGroup;
+			children = (
+				222B64BE134BDD2500AE014B /* Classes */,
+				222B64C0134BDD3800AE014B /* Resources */,
+				22C7F8B3134BDCCD0086C413 /* Supporting Files */,
+				22C7F8AB134BDCCD0086C413 /* Frameworks */,
+				22C7F8A9134BDCCD0086C413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22C7F8A9134BDCCD0086C413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C7F8A8134BDCCD0086C413 /* SocialShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22C7F8AB134BDCCD0086C413 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				222B6667134C0F8900AE014B /* MessageUI.framework */,
+				22C7F8AC134BDCCD0086C413 /* UIKit.framework */,
+				22C7F8AE134BDCCD0086C413 /* Foundation.framework */,
+				22C7F8B0134BDCCD0086C413 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22C7F8B3134BDCCD0086C413 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C7F8B4134BDCCD0086C413 /* SocialShare-Info.plist */,
+				22C7F8B5134BDCCD0086C413 /* InfoPlist.strings */,
+				22C7F8B8134BDCCD0086C413 /* SocialShare-Prefix.pch */,
+				22C7F8B9134BDCCD0086C413 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = SimpleShare;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22C7F8A7134BDCCD0086C413 /* SocialShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C7F8C3134BDCCD0086C413 /* Build configuration list for PBXNativeTarget "SocialShare" */;
+			buildPhases = (
+				22C7F8A4134BDCCD0086C413 /* Sources */,
+				22C7F8A5134BDCCD0086C413 /* Frameworks */,
+				22C7F8A6134BDCCD0086C413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialShare;
+			productName = SimpleShare;
+			productReference = 22C7F8A8134BDCCD0086C413 /* SocialShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22C7F89F134BDCCD0086C413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Blue Key Digital Limited";
+			};
+			buildConfigurationList = 22C7F8A2134BDCCD0086C413 /* Build configuration list for PBXProject "SocialShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22C7F89D134BDCCD0086C413;
+			productRefGroup = 22C7F8A9134BDCCD0086C413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C7F8A7134BDCCD0086C413 /* SocialShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C7F8A6134BDCCD0086C413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C7F8B7134BDCCD0086C413 /* InfoPlist.strings in Resources */,
+				22C7F8C0134BDCCD0086C413 /* MainWindow.xib in Resources */,
+				222B64CD134BDD6D00AE014B /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C7F8A4134BDCCD0086C413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C7F8BA134BDCCD0086C413 /* main.m in Sources */,
+				222B64C9134BDD6200AE014B /* RootViewController.m in Sources */,
+				222B64CA134BDD6200AE014B /* SimpleShareAppDelegate.m in Sources */,
+				222B64CB134BDD6200AE014B /* SSHActionSheet.m in Sources */,
+				222B64E9134BE61300AE014B /* SSH.m in Sources */,
+				222B6663134C08B500AE014B /* NSString+URLEscape.m in Sources */,
+				222B6666134C0F1200AE014B /* SSHEmailViewController.m in Sources */,
+				222B66AC134C244400AE014B /* SSHWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22C7F8B5134BDCCD0086C413 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C7F8B6134BDCCD0086C413 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22C7F8BE134BDCCD0086C413 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C7F8BF134BDCCD0086C413 /* en */,
+			);
+			name = MainWindow.xib;
+			path = SimpleShare;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22C7F8C1134BDCCD0086C413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22C7F8C2134BDCCD0086C413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		22C7F8C4134BDCCD0086C413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleShare/SocialShare-Prefix.pch";
+				INFOPLIST_FILE = "SimpleShare/SocialShare-Info.plist";
+				PRODUCT_NAME = SocialShare;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22C7F8C5134BDCCD0086C413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleShare/SocialShare-Prefix.pch";
+				INFOPLIST_FILE = "SimpleShare/SocialShare-Info.plist";
+				PRODUCT_NAME = SocialShare;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C7F8A2134BDCCD0086C413 /* Build configuration list for PBXProject "SocialShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C7F8C1134BDCCD0086C413 /* Debug */,
+				22C7F8C2134BDCCD0086C413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C7F8C3134BDCCD0086C413 /* Build configuration list for PBXNativeTarget "SocialShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C7F8C4134BDCCD0086C413 /* Debug */,
+				22C7F8C5134BDCCD0086C413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22C7F89F134BDCCD0086C413 /* Project object */;
+}
